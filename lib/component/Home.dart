@@ -20,7 +20,6 @@ class HomeState extends State<Home>{
   changePageViewPosition (int index)  {
     mPageController.jumpToPage(index);
   }
-
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
